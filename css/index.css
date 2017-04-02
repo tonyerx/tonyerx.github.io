@@ -1,0 +1,581 @@
+.shortcut {
+    height: 130px;
+    width: 100%;
+    background-color: lightblue;
+}
+/*content部分开始*/
+
+/*lbt部分开始*/
+.lunbo{
+    width: 1350px;
+    height: 519px;
+    position: relative;
+    overflow: hidden;
+    top: -4px;
+}
+.lunbo-imgs{
+    list-style:none ;
+    width: 500%;
+    position: absolute;
+    /*left: -1350px;*/
+
+}
+.lunbo-imgs li img{
+    height: 519px;
+}
+
+.lunbo-imgs li{
+    width: 1350px;
+    float: left;
+    position: relative;
+    height: 519px;
+}
+.lunbo-imgs li a{
+    position: absolute;
+    color: white;
+}
+.lunbo-imgs li a:hover{
+    color: red;
+}
+.lunbo-imgs li a b{
+    color: red;
+    float: left;
+    margin-top: 15px;
+}
+.lunbo-imgs li a h1{
+    display: inline-block;
+    font-size: 42px;
+    margin-left: 18px;
+}
+.lunbo-imgs li a p{
+    font-size: 28px;
+    margin-left: 36px;
+    padding-top: 20px;
+}
+.lunbo-imgs li .one{
+    bottom: 100px;
+    left: 100px;
+}
+
+.lunbo-imgs li .two{
+    right: 100px;
+    bottom: 100px;
+}
+.lunbo-imgs li .three{
+    left: 100px;
+    top: 100px;
+}
+.lunbo-imgs li .four{
+    top: 50px;
+    right: 50px;
+}
+
+
+.lunbo-imgs li a  b{
+    height: 24px;
+    line-height: 24px;
+    bottom: 0px;
+    left: 0px;
+    font-size: 24px;
+    /*background-color: pink;*/
+}
+.lunbo .arrow{
+    display: none;
+}
+.lunbo .arrow span{
+    width: 40px;
+    height: 60px;
+    line-height: 60px;
+    position: absolute;
+    background-color: #3E4146;
+    margin-top: -30px;
+    top: 50%;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+.lunbo .left{
+    left: 0px;
+}
+.lunbo .right{
+    right: 0px;
+}
+.lunbo .cir{
+    position: absolute;
+    bottom: 22px;
+    left: 50%;
+    margin-left: -48px;
+}
+.lunbo .cir li{
+    width: 8px;
+    height: 8px;
+    background-color: #CCCCCC;
+    border-radius: 50%;
+    float: left;
+    margin-left: 16px;
+}
+.lunbo .cir .current{
+    /*background-color: white;*/
+    background-color: red;
+}
+/*lbt部分结束*/
+.ltb {
+    height: 525px;
+    width: 100%;
+    background-color: lightgrey;
+
+}
+.contact-us {
+    height: 85px;
+    /*margin-left: 1%;*/
+    border-bottom: 1px solid #CCCCCC;
+    overflow: hidden;
+}
+.contact-us ul {
+    height: 40px;
+    padding-left: 255px;
+    margin: 21px auto 0 auto;
+}
+.contact-us ul li {
+    float: left;
+    margin: 0 21px;
+
+}
+.contact-us a {
+    display: inline-block;
+    color: #3a6b9b;
+    font-size: 14px;
+    line-height: 40px;
+    /*width: 144px;*/
+    height: 40px;
+    position: relative;
+}
+.contact-us a:hover {
+    color:#c00;
+}
+.contact-us a i {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url("../images/jinglingtu.fw.png") no-repeat 0 0;
+}
+.contact-us a span {
+    padding-left: 46px;
+}
+/*content部分结束*/
+
+/*car-range部分开始*/
+.car-range {
+    height: 225px;
+    position: relative;
+}
+.car-range ul {
+    margin-left: 122px;
+}
+.car-range ul li {
+    float: left;
+    width: 183px;
+}
+.car-range-title {
+    width: 181px;
+    height: 245px;
+    border: 1px solid #CCC;
+    border-radius: 2%;
+    position: absolute;
+    top: -102px;
+    background-color: #fff;
+    padding-top: 12px;
+    display: none;
+}
+.car-range-title a {
+    display: block;
+    font-size: 14px;
+    height: 35px;
+    line-height: 35px;
+    position: relative;
+    padding-left: 30px;
+}
+.car-range-title a s {
+    position: absolute;
+    left: 17px;
+    top: -1px;
+    color: #c00;
+    font-weight: 900;
+    font-size: 16px;
+    font-family: "consolas";
+}
+.car-range .car-range-car a {
+    display: inline-block;
+    height: 142px;
+    position: relative;
+    z-index: 99;
+}
+.car-range .car-range-car a:hover {
+    color: #666;
+}
+.car-range .car-range-car img {
+    margin-bottom: 3px;
+    padding-top: 20px;
+}
+.car-range .car-range-car span {
+    display: block;
+    width: 181px;
+    text-align: center;
+    font-size: 14px;
+}
+/*car-range部分结束*/
+
+/*ad部分开始*/
+.ad {
+    /*padding-left: 92px;*/
+    overflow: hidden;
+}
+.ad a {
+    width: 289px;
+    height: 257px;
+    margin-right: 4px;
+    float: left;
+    color: #000;
+    position: relative;
+}
+.ad a s {
+    height: 5px;
+    width: 289px;
+    background-color: #c00;
+    position: absolute;
+    top: 212px;
+    z-index: 2;
+    display: none;
+}
+.ad a:hover {
+    color: #C00;
+}
+.ad a span {
+    display: block;
+    width: 289px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500;
+}
+.ad a span:before{
+    content: ">";
+    font-size: 12px;
+    color: #c00;
+    line-height: 16px;
+    font-family: 'pag-iconfont';
+    font-weight: 900;
+    padding-right: 6px;
+}
+/*ad部分结束*/
+
+/*history部分开始*/
+.history-top {
+    height: 65px;
+    overflow: hidden;
+}
+.history {
+    height: 665px;
+    border-top: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+    position: relative;
+    z-index: 1;
+}
+.history span{
+    height: 26px;
+    font-size: 26px;
+    color: #000;
+    padding: 0 26px;
+    display: inline-block;
+    background-color: #fff;
+    line-height: 26px;
+    position: absolute;
+    left: 443px;
+    top: -14px;
+    z-index: 2;
+}
+.history .images {
+    margin-top: 72px;
+    height: 418px;
+    width: 1165px;
+    margin-left: 8px;
+}
+.images-left,
+.images-middle,
+.images-right {
+    float: left;
+    height: 418px;
+    width: 387px;
+    overflow: hidden;
+    margin-right: 1px;
+}
+.images-l-top ul,
+.images-m-top ul,
+.images-r-top ul {
+    position: relative;
+    width: 1165px;
+    height: 272px;
+    z-index: 99;
+}
+.images-l-top ul li,
+.images-m-top ul li,
+.images-r-top ul li {
+    float: left;
+    height: 268px;
+    width: 384px;
+    border: 2px solid #fff;
+}
+.images-l-top a,
+.images-m-top a,
+.images-r-top a {
+    background-color: lavenderblush;
+}
+.images-m-bottom,
+.images-r-bottom  {
+    margin-top: 2px;
+    margin-left: 2px;
+}
+.images-l-bottom .images-l-b-left,
+.images-m-bottom .images-m-b-left,
+.images-r-bottom .images-r-b-left {
+    width: 191px;
+    height: 145px;
+}
+.images-l-b-left ul,
+.images-m-b-left ul,
+.images-r-b-left ul {
+    height: 147px;
+    width: 194px;
+    position: relative;
+    z-index: 66;
+    /*overflow: hidden;*/
+}
+.images-l-b-left ul li,
+.images-m-b-left ul li,
+.images-r-b-left ul li {
+    height: 145px;
+    width: 190px;
+    border-bottom: 2px solid #fff;
+    border-right: 4px solid #fff;
+}
+.images-l-bottom .images-l-b-right,
+.images-m-bottom .images-m-b-right,
+.images-r-bottom .images-r-b-right {
+    width: 191px;
+    height: 145px;
+    margin-left: -1px;
+}
+.images-l-b-right ul,
+.images-m-b-right ul,
+.images-r-b-right ul {
+    height: 147px;
+    width: 194px;
+    position: relative;
+    z-index: 66;
+}
+.images-l-b-right ul li,
+.images-m-b-right ul li,
+.images-r-b-right ul li {
+    height: 145px;
+    width: 190px;
+    border-bottom: 2px solid #fff;
+    border-right: 4px solid #fff;
+    margin-left: -2px;
+}
+
+
+.history .weibo {
+    color: #999;
+    font-size: 16px;
+    height: 68px;
+    line-height: 68px;
+    margin-left: 6px;
+}
+.history .weibo h3{
+    display: inline-block;
+    font-weight: bold;
+    color: #000;
+}
+.share a{
+    float: right;
+    font-size: 14px;
+    text-align: center;
+    width: 117px;
+    height: 35px;
+    border: 1px solid #3E4146;
+    border-radius: 5%;
+    line-height: 37px;
+    background-color: #3E4146;
+    color: #fff;
+    position: relative;
+    margin-right: 91px;
+    cursor: pointer;
+}
+.share b {
+    display: inline-block;
+    height: 13px;
+    width: 12px;
+    background: url("../images/jinglingtu.fw.png") no-repeat -80px 0;
+    margin-right: 10px;
+    position: relative;
+    top: 3px;
+}
+/*history部分结束*/
+
+/*footer部分开始*/
+.last{
+    margin-top:39px;
+
+}
+.last div{
+    width: 293px;
+    height: 235px;
+
+    float:left;
+}
+.last h2{
+    margin-bottom:23px;
+    color:#B8B8B8;
+}
+.· a{
+    display: inline-block;
+    height:27px;
+    font-weight: 900;
+    color:#595959;
+}
+.last ul a:hover{
+    color:red;
+}
+.fenxiang{
+    position:relative;
+    width: 284px;
+    height: 38px;
+    background:#3E4146;
+    border-radius: 5px;
+    color:white;
+    font-weight: 900;
+    cursor: pointer;
+    display: block;
+}
+.fenxiang h3{
+    line-height: 38px;
+
+}
+.fenxiang1{
+    position:absolute;
+    width: 283px;
+    height: 140px;
+    background:white;
+    border:1px solid #ccc;
+    border-top:none;
+    display: none;
+}
+.fenxiang1 ul li{
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+    background:url("../images/1.fw.png")no-repeat 0 0;
+    float:left;
+    margin-right: 6px;
+
+}
+.fenxiang:hover .fenxiang1{
+    display: block;
+}
+.fx{
+    margin-top:41px;
+}
+.tubiao{
+    background:red;
+}
+.jlt ul{
+    margin-top: 5px;
+}
+.jlt ul li{
+    width: 40px;
+    height: 40px;
+    background:red;
+    float:left;
+    background:url("../images/1.fw.png") no-repeat 0 0;
+    padding-right:5px;
+}
+/* 最底部 */
+.lowest{
+    background:black;
+    height: 280px;
+    margin-top:65px;
+    padding-top: 23px;
+}
+.lowest h3{
+    color:white;
+    text-align: center
+}
+.district{
+    position:relative;
+    margin-top:20px;
+    color:white;
+    text-align: center
+}
+.district1-1{
+    position:absolute;
+    left: 301px;
+    top:39px;
+    height: 240px;
+    width: 285px;
+    background:white;
+    overflow: auto;
+    display: none
+}
+.district1:hover .district1-1{
+    display: block;
+}
+.district1-1 p{
+    color:black;
+}
+.district .district1{
+    display:inline-block;
+    width: 284px;
+    height: 38px;
+    cursor: pointer;
+    background:#3E4146;
+    line-height: 38px;
+    border-radius: 5px;
+    font-weight: 900;
+}
+
+.district .district2{
+    display:inline-block;
+    width: 284px;
+    height: 38px;
+    cursor: pointer;
+    background:#3E4146;
+    line-height: 38px;
+    border-radius: 5px;
+    font-weight: 900;
+    margin-left:0;
+}
+.dixian{
+    border-bottom:1px solid #ccc;
+    margin-top: 35px;
+}
+.dixia1 p{
+    font-size:15px;
+    color:white;
+
+}
+.dixia1 .law{
+    height: 68px;
+    line-height: 68px;
+}
+.dixia1 u{
+    color:white;
+}
+.dixia1 u:hover{
+    color:red;
+    text-decoration: none;
+}
+/*footer部分结束*/

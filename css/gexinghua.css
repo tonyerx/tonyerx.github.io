@@ -1,0 +1,261 @@
+/*
+* @Author: Administrator
+* @Date:   2017-02-07 11:09:28
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-02-08 14:09:02
+*/
+body{
+	width: 1366px;
+	margin: 0 auto;
+}
+.top{
+	background:#F2F2F2;
+	height:32px;
+	padding-top:24px;
+}
+.fuwu{
+	font-size:21px;
+	margin-left:98px;
+	font-weight:900;
+	color:black;
+}
+
+.daohang2{
+	position:relative;
+}
+.daohang1{
+	height: 69px;
+}
+.daohang{
+	position:absolute;
+	background:#990000;
+	top:50px;
+	display:none;
+}
+
+.daohang a{
+	display:inline-block;
+	color:white ;
+	padding-left:15px;
+		height: 40px;
+		width:500px;
+	line-height:40px;
+	font-weight:900;
+}
+.daohang2:hover .daohang{
+	display:block;
+}
+/* 顶部结束 */
+.liebiao{
+	margin-top:18px;
+	height:119px;
+}
+.liebiao s{
+	display:inline-block;
+	font-size:21px;
+	/* font-weight:900; */
+	color:#CF1111;
+	font-family:"微软雅黑";
+	height:120px;
+	width:32px;
+	text-align:center;
+}
+.chang{
+	width: 600px;
+}
+.liebiao i{
+	font-weight:900;
+	font-size:13px;
+	color:black;
+}
+
+.bottom{
+	border-bottom:1px solid #ccc;
+	position:relative;
+	height: 60px;
+}
+.bottom span{
+	display:inline-block;
+	position:absolute;
+	font-size:30px;
+	color:black;
+	width:105px;
+	background:white;
+	z-index: 1;
+	text-align:center;
+	left:555px;
+	top:50px;
+}
+.bottom1{
+	display: table;
+	margin: 0 auto;
+}
+.bottom1 li{
+	float:left;
+	margin-top:35px;
+}
+.bottom1 li a{
+	padding:0 11px 0 11px;
+	font-weight: 900;
+	color:black;
+}
+.dixian{
+	border-bottom: 1px solid #ccc;
+	margin-top:40px;
+}
+.bottom1 li a:hover{
+	color:red;
+}
+/* 个性化服务结束 */
+.last{
+	margin-top:39px;
+
+}
+.last div{
+	width: 293px;
+	height: 235px;
+
+	float:left;
+}
+.last h2{
+	margin-bottom:23px;
+	color:#B8B8B8;
+}
+/*.· a{*/
+	/*display: inline-block;	*/
+	/*height:27px;*/
+	/*font-weight: 900;*/
+	/*color:#595959;*/
+/*}*/
+.last ul a:hover{
+	color:red;
+}
+.fenxiang{
+	position:relative;
+	width: 284px;
+	height: 38px;
+	background:#3E4146;
+	border-radius: 5px;
+	color:white;
+	font-weight: 900;
+	cursor: pointer;
+	display: block;
+}
+.fenxiang h3{
+	line-height: 38px;
+
+}
+.fenxiang1{
+	position:absolute;
+	width: 283px;
+	height: 140px;
+	background:white;
+	border:1px solid #ccc;
+	border-top:none;
+	display: none;
+}
+.fenxiang1 ul li{
+	height: 40px;
+	width: 40px;
+	margin-top: 10px;
+	background:url("../images/1.fw.png")no-repeat 0 0;
+	float:left;
+	margin-right: 6px;
+
+}
+.fenxiang:hover .fenxiang1{
+	display: block;
+}
+.fx{
+	margin-top:41px;
+}
+.tubiao{
+	background:red;
+}
+.jlt ul{
+	margin-top: 5px;
+}
+.jlt ul li{
+	width: 40px;
+	height: 40px;
+	background:red;
+	float:left;
+	background:url("../images/1.fw.png") no-repeat 0 0;
+	padding-right:5px; 
+}
+/* 最底部 */
+.lowest{
+	background:black;
+	height: 280px;
+	margin-top:65px;
+	padding-top: 23px;
+}
+.lowest h3{
+	color:white;
+	text-align: center
+}
+.district{
+	position:relative;
+	margin-top:20px;
+	color:white;
+	text-align: center
+}
+.district1-1{
+	position:absolute;
+	left: 301px;
+	top:38px;
+	height: 240px;
+	width: 285px;
+	background:white;
+	overflow: auto;
+	display: none
+}
+.district1:hover .district1-1{
+	display: block;
+}
+.district1-1 p{
+	color:black;
+	text-align: left;
+}
+.district .district1{
+	display:inline-block;
+	width: 284px;
+	height: 38px;
+	cursor: pointer;
+	background:#3E4146;
+	line-height: 38px;
+	border-radius: 5px;
+	font-weight: 900;
+}
+
+.district .district2{
+	display:inline-block;
+	width: 284px;
+	height: 38px;
+	cursor: pointer;
+	background:#3E4146;
+	line-height: 38px;
+	border-radius: 5px;
+	font-weight: 900;
+	margin-left:0;
+}
+.dixian{
+	border-bottom:1px solid #ccc;
+	margin-top: 35px;
+}
+.dixia1 p{
+	font-size:15px;
+	color:white;
+
+}
+.dixia1 .law{
+	height: 68px;
+	line-height: 68px;
+}
+.dixia1 u{
+	color:white;
+}
+.dixia1 u:hover{
+	color:red;
+	text-decoration: none;
+}

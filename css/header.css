@@ -1,0 +1,331 @@
+body {
+    height: 2000px;
+}
+
+/*头部开始B*/
+.logo {
+    display: inline-block;
+    width: 100px;
+    height: 53px;
+    background: url("../images/sprite.png") no-repeat 0 -1768px;
+    text-indent: -5000px;
+}
+.logo-area {
+    padding: 22px 16px 0 16px;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    margin-left: -66px;
+    background-color: #fff;
+}
+.header {
+    position: relative;
+    height: 130px;
+}
+.header .header-top h3 {
+    position: relative;
+    height: 75px;
+}
+.header .header-top h3:before {
+    width: 930px;
+    content: '';
+    border-bottom: 1px solid #DFDFDF;
+    position: absolute;
+    top: 72px;
+    left: 0;
+}
+.header-b-nav {
+    padding-top: 26px;
+    padding-left: 2px;
+}
+.header-b-nav li {
+    float: left;
+    position: relative;
+    font-size: 14px;
+    margin-right: 31px;
+    padding-bottom: 15px;
+}
+.header-b-nav li.fore-line a:after {
+    content: '';
+    display: inline-block;
+    height: 14px;
+    line-height: 14px;
+    margin-left: 31px;
+    border-right: 1px solid #000;
+}
+.header-b-nav .nav-desc {
+    position: absolute;
+    top: 29px;
+    left: -15px;
+    border: 1px solid #DFDFDF;
+    display: none;
+    background-color: #fff;
+    z-index: 1;
+}
+.header-b-nav .nav-desc .nav-triangle {
+    position: absolute;
+    top: -10px;
+    left: 45px;
+    width: 0;
+    height: 0;
+    border: 10px solid #DFDFDF;
+    border-top: none;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+.header-b-nav .nav-desc .nav-triangle-s {
+    position: absolute;
+    top: 2px;
+    left: -10px;
+    width: 0;
+    height: 0;
+    border: 10px solid #fff;
+    border-top: none;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+.header-b-nav .nav-desc a {
+    display: block;
+    padding: 0 15px;
+}
+.header-b-nav .nav-desc a span {
+    display: block;
+    white-space: nowrap;    //让其不自动换行乱布局
+    height: 42px;
+    line-height: 42px;
+    padding-right: 21px;
+    border-bottom: 1px solid #DFDFDF;
+}
+.header-b-nav .nav-desc a:nth-last-of-type(1) span {
+    border-bottom: none;
+}
+.header-right {
+    background-color: #F2F2F2;
+    width: 200px;
+    height: 112px;
+    text-align: center;
+    padding-top: 18px;
+    font-size: 14px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 3;
+}
+.header-right form input {
+    width: 168px;
+    height: 28px;
+    border: 1px solid #DFDFDF;
+    border-radius: 5px;
+    font-size: 14px;
+    text-indent: 11px;
+    line-height: 28px;
+}
+.header-right form>div {
+    position: relative;
+}
+.header-right form i {
+    font-family: consolas;
+    font-size: 18px;
+    position: absolute;
+    top: 6px;
+    right: 28px;
+    width: 16px;
+    height: 16px;
+}
+.header-right form b {
+    position: absolute;
+    top: 9px;
+    right: 25px;
+    width: 16px;
+    height: 16px;
+    background: url("../images/sprite.png") no-repeat 0 -1884px;
+    background-size: 198.1px  1943.9px;
+}
+.header-right .city {
+    margin-bottom: 9px;
+}
+.car-configurator {
+    position: relative;
+    height: 43px;
+    line-height: 43px;
+    text-align: left;
+    padding-left: 22px;
+}
+.car-configurator span:before, .car-configurator span:after {
+    content: ">";
+    font-size: 20px;
+    font-family: consolas;
+    position: absolute;
+    top: 0;
+}
+.car-configurator span:before {
+    right: 30px;
+}
+.car-configurator span:after {
+    right: 26px;
+}
+.car-configurator a {
+    color: #4F7AA5;
+}
+.car-configurator a:hover {
+    color: #CC0000;
+}
+.tools-service {
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    background-color: #2A4B6D;
+    color: #fff;
+    padding: 0 28px 0 25px;
+    z-index: 3;
+}
+.tools-service span {
+    position: relative;
+    float: left;
+}
+.tools-service i, .tools-service b {
+    font-size: 20px;
+    font-family: consolas;
+    position: absolute;
+    top: 0;
+}
+.tools-service span, .tools-service i, .tools-service b {
+    z-index: 3;
+}
+.tools-service i {
+    border-bottom: 2px solid #fff;
+    right: 26px;
+    top: 17px;
+    width: 10px;
+}
+.tools-service b {
+    border-right: 2px solid #fff;
+    height: 10px;
+    top: 13px;
+    right: 30px;
+}
+/*头部结束E*/
+
+/*工具与服务详情页开始B*/
+.tools-service-more {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #2A4B6D;
+    width: 1128px;
+    height: 273px;
+    display: none;
+    padding: 54px 45px 0 88px;
+    z-index: 2;
+}
+.tools-service-more h3 {
+    float: right;
+    display: block;
+    width: 282px;
+    font-size: 20px;
+    color: #fff;
+    padding-bottom: 25px;
+    text-align: left;
+}
+.tools-service-more ul {
+    float: left;
+    width: 282px;
+}
+.tools-service-more li:nth-of-type(1) {
+    width: 256px;
+    border-top: 1px solid #405D7B;
+}
+.tools-service-more li a {
+    display: block;
+    width: 234px;
+    height: 43px;
+    padding: 0 12px 0 10px;
+    line-height: 43px;
+    font-size: 14px;
+    color: #fff;
+    border-bottom: 1px solid #405D7B;
+}
+.tools-service-more li a:after {
+    float: right;
+    content: '>';
+    display: inline-block;
+    font-family: consolas;
+    font-size: 18px;
+}
+/*工具与服务详情页结束E*/
+
+
+/*脚部开始B*/
+.footer {
+    height: 305px;
+    background-color: #1B1D1F;
+    font-size: 14px;
+    color: #fff;
+}
+.footer-top {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #3E4146;
+    padding-bottom: 22px;
+}
+.footer-top p {
+    padding: 18px 0;
+}
+.footer-top .footer-t-country {
+    text-align: center;
+}
+.footer-top .footer-t-country .continent,
+.footer-top .footer-t-country .country {
+    display: inline-block;
+    position: relative;
+}
+.footer-top .footer-t-country .continent {
+    margin-right: 12px;
+}
+.footer-top .footer-t-country .continent-tips,
+.footer-top .footer-t-country .country-tips {
+    display: inline-block;
+    width: 271px;
+    height: 37px;
+    line-height: 37px;
+    text-align: left;
+    font-size: 14px;
+    font-family: Arial,黑体,SimHei,宋体,SimSun,sans-serif;
+    background-color: #3E4146;
+    color: #fff;
+    border-radius: 3px;
+    padding-left: 13px;
+}
+.footer-top .footer-t-country .continent-items {
+    position: absolute;
+    border: 1px solid #CCC;
+    background-color: #fff;
+    padding: 4px;
+    display: none;
+}
+.footer-top .footer-t-country .continent-items ul {
+    width: 266px;
+    height: 186px;
+    border-top: none;
+    overflow: auto;
+    padding-top: 13px;
+    padding-left: 8px;
+}
+.footer-top .footer-t-country .continent-items li {
+    text-align: left;
+    padding-bottom: 26px;
+}
+.footer-bottom p:nth-of-type(1) {
+    margin-top: 30px;
+}
+.footer-bottom p a {
+    color: #fff;
+    text-decoration: underline;
+}
+.footer-bottom p:nth-of-type(2) {
+    margin-top: 24px;
+}
+.footer-bottom p:nth-of-type(3) {
+    margin-top: 10px;
+}
+/*脚部结束E*/
